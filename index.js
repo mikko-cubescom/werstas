@@ -25,4 +25,7 @@ db.collection('werstasmenu')
 	.then((res) => {
 		const menu = res.docs[0].get('menu')[weekday];
 		console.log(menu)
-	});
+	})
+  .catch((error) => {
+    console.error("Error")
+  })
