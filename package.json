@@ -1,0 +1,16 @@
+{
+  "name": "werstas",
+  "version": "1.0.0",
+  "description": "Get menu from Werstas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^8.9.2",
+    "moment": "^2.24.0",
+    "puppeteer": "^2.1.1"
+  }
+}
